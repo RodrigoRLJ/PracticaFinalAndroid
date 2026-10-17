@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment2">
+
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.tiendafragments.ui.fregment.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment2_to_registerFragment2"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment2_to_seriesListFragment"
+            app:destination="@id/seriesListFragment"
+            app:popUpTo="@id/loginFragment2"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.tiendafragments.ui.fregment.RegisterFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/seriesListFragment"
+        android:name="com.example.tiendafragments.ui.fregment.SeriesListFragment"
+        android:label="Series"
+        tools:layout="@layout/fragment_series_list">
+        <action
+            android:id="@+id/action_seriesListFragment_to_seriesDetailFragment"
+            app:destination="@id/seriesDetailFragment" />
+        <action
+            android:id="@+id/action_seriesListFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/seriesDetailFragment"
+        android:name="com.example.tiendafragments.ui.fregment.SeriesDetailFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_series_detail" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.tiendafragments.ui.fregment.FavoritesFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favorites" />
+
+</navigation>

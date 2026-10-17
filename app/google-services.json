@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1019094079021",
+    "firebase_url": "https://rlj-insod2526-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "rlj-insod2526",
+    "storage_bucket": "rlj-insod2526.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019094079021:android:409a7d76049c9b12458aa4",
+        "android_client_info": {
+          "package_name": "com.example.ejemplosfragmentos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCtCaX-PnbP9BCxs250RlpeGrME8sjDnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019094079021:android:bc35c5afe51a1abd458aa4",
+        "android_client_info": {
+          "package_name": "com.example.tiendafragments"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCtCaX-PnbP9BCxs250RlpeGrME8sjDnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
